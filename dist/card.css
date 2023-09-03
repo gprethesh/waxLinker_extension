@@ -1,0 +1,29 @@
+.nft-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.nft-field {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.nft-field label {
+    font-weight: bold;
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+.nft-field span {
+    color: #666;
+    font-size: 18px;
+}
